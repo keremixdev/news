@@ -8,7 +8,6 @@ var news = (function(config) {
         }
     }
 
-
     function model(b) {
 
         var clone = b;
@@ -21,7 +20,6 @@ var news = (function(config) {
         list.myeach(function(d) {
             b.style.height = config.count * list[0].clientHeight + 'px';
         });
-
 
         if (end > 0) {
             var t = 0;
