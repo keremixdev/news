@@ -1,0 +1,52 @@
+div.news-thumb-container {
+  width: 500px;
+  overflow: hidden;
+  box-shadow: 0 10px 10px -10px #ccc;
+  color: #444;
+  font-size: 14px;
+  position: relative; }
+  div.news-thumb-container div.news-thumbs {
+    position: relative;
+    font-family: arial;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    div.news-thumb-container div.news-thumbs * {
+      box-sizing: border-box; }
+    div.news-thumb-container div.news-thumbs div {
+      overflow: hidden; }
+      div.news-thumb-container div.news-thumbs div div.news-thumb-image {
+        width: 30%;
+        float: left;
+        vertical-align: top;
+        padding: 10px; }
+        div.news-thumb-container div.news-thumbs div div.news-thumb-image img {
+          display: block;
+          width: 100%; }
+      div.news-thumb-container div.news-thumbs div.news-thumb-item {
+        padding: 10px 0px; }
+      div.news-thumb-container div.news-thumbs div div.news-thumb-context {
+        width: 70%;
+        float: left;
+        vertical-align: top; }
+        div.news-thumb-container div.news-thumbs div div.news-thumb-context h1.news-thumb-title {
+          line-height: 100%;
+          margin: 0;
+          padding: 10px 0;
+          color: #3f89b7;
+          font-size: 17px; }
+        div.news-thumb-container div.news-thumbs div div.news-thumb-context p {
+          margin: 0;
+          display: -webkit-box;
+          overflow: hidden;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical; }
+        div.news-thumb-container div.news-thumbs div div.news-thumb-context a.news-thumb-btn {
+          display: inline-block;
+          margin: 10px 0;
+          padding: 4px;
+          font-size: 13px;
+          font-weight: bold;
+          color: #4ab563; }
+      div.news-thumb-container div.news-thumbs div:last-child {
+        border-bottom: 0; }
