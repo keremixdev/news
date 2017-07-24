@@ -1,5 +1,5 @@
 {
-    "name": "NEWS",
+    "name": "news",
     "version": "1.0.0",
     "description": "",
     "main": "gulpfile.js",
@@ -15,6 +15,6 @@
         "gulp-sass": "^3.1.0"
     },
     "repository": {
-        "url": "https://github.com/keremixdev/news-thumb-slide.git"
+        "url": "https://github.com/keremixdev/news.git"
     }
 }
