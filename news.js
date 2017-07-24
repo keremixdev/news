@@ -53,7 +53,7 @@ var news = (function(config) {
     return config;
 
 })({
-    timer: 3000,
+    timer: 5000,
     count: 2
 
 });
